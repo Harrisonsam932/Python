@@ -1,3 +1,4 @@
+# first exceptions training
 
 try:
     n1 = 100

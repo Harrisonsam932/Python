@@ -1,5 +1,5 @@
 
-dic = {104:'meghana',102:'kiran',105:'rutvik',101:'rupsita',103:'surya',101:'raj'}
+dic = {104:'meghana',102:'kiran',105:'rutvik',103:'surya',101:'raj'}
 
 print(dic)
 
@@ -19,7 +19,7 @@ for item in dic.values():
 
 for item in dic.items():
     print(item)
-    
+
 dic.popitem()
 print(dic)
 
@@ -29,4 +29,4 @@ print(dic)
 dic.clear()
 
 print(dic)
-    
+

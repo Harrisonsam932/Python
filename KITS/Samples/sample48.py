@@ -1,6 +1,6 @@
 
-from sample46 import reverse,findDuplicates
+from sample46 import reverse, findDuplicates
 
-reverse('meghana')
+reverse('harrison')
 
-findDuplicates([1,1,2,3,4,3,5])
+findDuplicates([1, 1, 2, 3, 4, 3, 5])
