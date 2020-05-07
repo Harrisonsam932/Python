@@ -1,10 +1,10 @@
 
 
-curr_bal = (int)(input('Current Balance:'))
-with_drawl = (int)(input('Withdrawl:'))
+current_balance = (int)(input('Current Balance:'))
+withdrawl = (int)(input('Withdrawl:'))
 
-if with_drawl > curr_bal:
+if withdrawl > current_balance:
     print('Insufficient Funds')
 else:
-    curr_bal = curr_bal-with_drawl;
-    print(curr_bal)
+    current_balance = current_balance-withdrawl
+    print(current_balance)

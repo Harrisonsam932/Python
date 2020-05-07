@@ -1,5 +1,5 @@
 
-tup = (12,4.5,'surya',True,89,12)
+tup = (12, 4.5, 'surya', True, 89, 12)
 
 print(len(tup))
 
@@ -20,8 +20,10 @@ print(tup)
 for item in tup:
     if type(item) == int:
         print(item)
-        
-for i in range(0,len(tup)):
+
+for i in range(0, len(tup)):
     print(tup[i])
-    
+
+
 del(tup)
+print(tup)

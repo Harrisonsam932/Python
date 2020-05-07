@@ -1,5 +1,5 @@
 
-name = 'meghana'
+name = input("enter the word in question;")
 
 rev = ''
 
@@ -10,4 +10,3 @@ if name == rev:
     print('Palindrome')
 else:
     print('Not Palindrome')
-    

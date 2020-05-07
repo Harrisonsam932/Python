@@ -1,9 +1,7 @@
 
-n = 17
+num = int(input("Enter integer: "))
 
-if n%2 == 0:
+if num % 2 == 0:
     print('Even')
 else:
     print('Odd')
-    
-

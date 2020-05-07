@@ -6,7 +6,7 @@ m3 = []
 
 start = 0
 end = 5
-
+#
 
 while start < end:
     num.append(input("What is your student number? "))
@@ -45,3 +45,5 @@ total.append(((m1[4]+m2[4]+m3[4])))
 
 for each in total:
     print("Your total mark is:", each)
+
+print("what is your name, Sir Alfred?")

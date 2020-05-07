@@ -33,7 +33,7 @@ print(var1)
 var1 /= 10
 print(var1)
 
-print(var1 not in (23, 46, 12, 33))
+print(var1 not in (23, 45.01, 12, 33))
 
 print(type(var1))
-print(var1,var2)
+print(var1, var2)

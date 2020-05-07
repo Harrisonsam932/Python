@@ -1,8 +1,9 @@
+# This is slicing practice
 
 
-name = 'MEGhana'  
+name = 'HARrison'
 
-print(name[0])
+print(name[0:3])
 
 print(name[1:5])
 
@@ -13,7 +14,7 @@ print(name[:5])
 print(len(name))
 
 l = len(name)-1
-while l>=0:
+while l >= 0:
     print(name[l], end=' ')
     l -= 1
 

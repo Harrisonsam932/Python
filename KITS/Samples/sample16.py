@@ -6,7 +6,8 @@ print(name.lower())
 print(name.capitalize())
 print(name.isupper())
 print(name.islower())
-print(name.isalpha())
+b = "sass"
+print(b.isalpha())
 print(name.count('to'))
 
 print(name.find('python'))
@@ -20,5 +21,4 @@ print(name.isalnum())
 print(name.split(' '))
 
 print(name.swapcase())
-print('My name was {0} and working at {1}'.format('surya','HCL'))
-
+print('My name was {0} and working at {1}'.format('surya', 'HCL'))
