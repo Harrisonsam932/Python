@@ -9,8 +9,8 @@ end = 5
 
 
 while start < end:
-    #num.append(input("What is your student number? "))
-    #name.append(input("What is your name? "))
+    num.append(input("What is your student number? "))
+    name.append(input("What is your name? "))
     m1.append(int(input("What is mark 1? ")))
     m2.append(int(input("What is mark 2? ")))
     m3.append(int(input("What is mark 3? ")))
