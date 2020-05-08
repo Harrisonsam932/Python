@@ -1,14 +1,12 @@
 
 class HumanBeing:
-    
-    hands = 2
-    
-    def writing(self):
-        print('HumanBeing can write using ',self.hands,' hands')
-        
-        
-meghana = HumanBeing()
-meghana.writing()
-print(meghana.hands)
 
-    
+    hands = 2
+
+    def writing(self):
+        print('Humans can write using ', self.hands, ' hands')
+
+
+harrison = HumanBeing()
+harrison.writing()
+print(harrison.hands)

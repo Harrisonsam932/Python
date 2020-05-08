@@ -21,4 +21,3 @@ cur.execute("insert into bank values(102,'harrison',2500)")
 conn.commit()
 cur.close()
 conn.close()
-'''

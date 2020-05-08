@@ -1,19 +1,25 @@
 
 import os
-
-print(os.getcwd())
-
 print(os.getpid())
 
-#print os.mkdir('e:/test/meghana')
+new = os.getcwd()
 
-for i in os.listdir('e:/meghana'):
+# # os.mkdir(new)
+
+# print(os.mkdir(os.getcwd() + '\\test os-module'))
+
+for i in os.listdir("c:\\users\harrison\desktop\python\kits"):
     print(i)
-    
-for i in os.walk('e:/meghana'):
+
+for i in os.walk("c:\\users\harrison\desktop\python\kits"):
     print(i)
-    
-print(os.path.exists('e:/meghana'))
-print(os.path.isdir('e:/meghana'))
-print(os.path.isfile('e:/meghana'))
-    
+'''
+print(os.path.exists('\test os-module'))
+print(os.path.isdir('\test os-module'))
+print(os.path.isfile('\test os-module'))
+'''
+
+print(os.listdir("c:\\users\harrison\desktop\python\kits"))
+print(os.path.isdir(new))
+
+print(os.path.isfile(new))
