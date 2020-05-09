@@ -8,8 +8,8 @@ Created on Fri Aug 31 10:24:44 2018
 
 import random
 n = random.randrange(1, 101)
-print('I\'ve though a number between 1 and 100!')
- 
+print("I've thought of a number between 1 and 100!")
+
 while True:
     try:
         g = input('Guess!')
@@ -19,13 +19,13 @@ while True:
     except ValueError:
         print('Enter an integer')
         continue
- 
+
     if g == n:
         print('Congratulations!')
         break
- 
+
     if g < n:
         print('Larger')
- 
+
     if g > n:
         print('Smaller')

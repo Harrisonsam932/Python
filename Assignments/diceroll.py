@@ -6,13 +6,13 @@ Created on Fri Aug 31 10:05:55 2018
 """
 
 import random
- 
+
 def question():
-        input('Press enter to roll!')
- 
+        choice=input('Press enter to roll!')
+
 def roll():
     n = [1, 2, 3, 4, 5, 6]
     print(random.choice(n))
- 
+
 question()
 roll()

@@ -17,4 +17,3 @@ if totalaverage > 0 and totalaverage < 30.0:
     print("Third Class.")
 
 print('Your average mark is:', (totalaverage), '%')
-

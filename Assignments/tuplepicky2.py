@@ -2,9 +2,9 @@
 con = 'yes'
 
 tup = ()
-tup.
+tup.index()
 
-while con == 'yes': 
+while con == 'yes':
     value = input("Enter value: ")
     if value.isalpha():
         tup += (value,)

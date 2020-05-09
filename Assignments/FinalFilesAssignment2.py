@@ -13,3 +13,4 @@ path, dirs, files = next(os.walk(userpath))
 file_count = len(files)
 
 print(file_count)
+

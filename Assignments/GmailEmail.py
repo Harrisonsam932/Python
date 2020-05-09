@@ -6,14 +6,16 @@ Created on Sun Sep 23 20:31:26 2018
 """
 
 import smtplib
+import getpass
 
-gmail_user = 'harrisonsam2002@gmail.com'
-gmail_pass = '************'
+
+gmail_user = input("Enter email: ")
+gmail_pass = getpass.getpass(prompt="Enter password: ")
 
 sent_from = gmail_user
-to = [gmail_user,'nelsondoss@hotmail.com','jeremyvictor007@gmail.com','jebajothipriya@hotmail.com']
-subject = 'Sending e-mails witht the help of Python'
-body = 'Hi, if you are reading this, just to let you know, this email was sent through Python'
+to = [gmail_user, 'nelson_harrison@outlook.com']
+subject = input("Enter subject: ")
+body = input("Enter body: ")
 
 email_text = '''\
 From: %s
@@ -26,6 +28,6 @@ Subject %s
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
 server.starttls()
-server.login(gmail_user,gmail_pass)
+server.login(gmail_user, gmail_pass)
 server.sendmail(sent_from, to, email_text)
 server.quit()
