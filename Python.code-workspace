@@ -1,25 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "Crash Course"
-		},
-		{
-			"path": "KITS"
-		},
-		{
-			"path": "Samples"
+			"path": "Previous Courses"
 		},
 		{
 			"path": "Projects"
 		},
 		{
-			"path": "Assignments"
+			"path": "Samples"
+		},
+		{
+			"path": "Bootcamp Downloads"
 		}
-	],
-	"settings": {
-		"cSpell.words": [
-			"kiran"
-		],
-		"sqltools.connections": []
-	}
+	]
 }
