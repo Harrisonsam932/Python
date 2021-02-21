@@ -11,6 +11,10 @@
 		},
 		{
 			"path": "Bootcamp Downloads"
+		},
+		{
+			"name": "datathon2021",
+			"path": "Projects\\datathon2021"
 		}
 	]
 }
