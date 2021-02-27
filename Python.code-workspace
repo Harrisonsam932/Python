@@ -1,15 +1,19 @@
 {
 	"folders": [
 		{
+			"name": "Previous Courses",
 			"path": "Previous Courses"
 		},
 		{
+			"name": "Projects",
 			"path": "Projects"
 		},
 		{
+			"name": "Samples",
 			"path": "Samples"
 		},
 		{
+			"name": "Bootcamp Downloads",
 			"path": "Bootcamp Downloads"
 		},
 		{
